@@ -1,0 +1,4886 @@
+[
+  {
+    "id": [0],
+    "manufacturer": "[Reserved for ID Extensions]",
+    "group": "Special",
+    "reserved": true
+  },
+  {
+    "id": [1],
+    "manufacturer": "Sequential Circuits",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [2],
+    "manufacturer": "IDP",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [3],
+    "manufacturer": "Voyetra Turtle Beach, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [4],
+    "manufacturer": "Moog Music",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [5],
+    "manufacturer": "Passport Designs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [6],
+    "manufacturer": "Lexicon Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [7],
+    "manufacturer": "Kurzweil / Young Chang",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [8],
+    "manufacturer": "Fender",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [9],
+    "manufacturer": "MIDI9",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [10],
+    "manufacturer": "AKG Acoustics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [11],
+    "manufacturer": "Voyce Music",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [12],
+    "manufacturer": "WaveFrame (Timeline)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [13],
+    "manufacturer": "ADA Signal Processors, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [14],
+    "manufacturer": "Garfield Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [15],
+    "manufacturer": "Ensoniq",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [16],
+    "manufacturer": "Oberheim / Gibson Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [17],
+    "manufacturer": "Apple",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [18],
+    "manufacturer": "Grey Matter Response",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [19],
+    "manufacturer": "Digidesign Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [20],
+    "manufacturer": "Palmtree Instruments",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [21],
+    "manufacturer": "JLCooper Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [22],
+    "manufacturer": "Lowrey Organ Company",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [23],
+    "manufacturer": "Adams-Smith",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [24],
+    "manufacturer": "E-mu",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [25],
+    "manufacturer": "Harmony Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [26],
+    "manufacturer": "ART",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [27],
+    "manufacturer": "Baldwin",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [28],
+    "manufacturer": "Eventide",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [29],
+    "manufacturer": "Inventronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [30],
+    "manufacturer": "Key Concepts",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [31],
+    "manufacturer": "Clarity",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [32],
+    "manufacturer": "Passac",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [33],
+    "manufacturer": "Proel Labs (SIEL)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [34],
+    "manufacturer": "Synthaxe (UK)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [35],
+    "manufacturer": "Stepp",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [36],
+    "manufacturer": "Hohner",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [37],
+    "manufacturer": "Twister",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [38],
+    "manufacturer": "Ketron s.r.l.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [39],
+    "manufacturer": "Jellinghaus MS",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [40],
+    "manufacturer": "Southworth Music Systems",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [41],
+    "manufacturer": "PPG (Germany)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [42],
+    "manufacturer": "JEN",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [43],
+    "manufacturer": "Solid State Logic Organ Systems",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [44],
+    "manufacturer": "Audio Veritrieb-P. Struven",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [45],
+    "manufacturer": "Neve",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [46],
+    "manufacturer": "Soundtracs Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [47],
+    "manufacturer": "Elka",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [48],
+    "manufacturer": "Dynacord",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [49],
+    "manufacturer": "Viscount International Spa (Intercontinental Electronics)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [50],
+    "manufacturer": "Drawmer",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [51],
+    "manufacturer": "Clavia Digital Instruments",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [52],
+    "manufacturer": "Audio Architecture",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [53],
+    "manufacturer": "Generalmusic Corp SpA",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [54],
+    "manufacturer": "Cheetah Marketing",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [55],
+    "manufacturer": "C.T.M.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [56],
+    "manufacturer": "Simmons UK",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [57],
+    "manufacturer": "Soundcraft Electronics",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [58],
+    "manufacturer": "Steinberg Media Technologies GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [59],
+    "manufacturer": "Wersi Gmbh",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [60],
+    "manufacturer": "AVAB Niethammer AB",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [61],
+    "manufacturer": "Digigram",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [62],
+    "manufacturer": "Waldorf Electronics GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [63],
+    "manufacturer": "Quasimidi",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [64],
+    "manufacturer": "Kawai Musical Instruments MFG. CO. Ltd",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [65],
+    "manufacturer": "Roland Corporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [66],
+    "manufacturer": "Korg Inc.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [67],
+    "manufacturer": "Yamaha Corporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [68],
+    "manufacturer": "Casio Computer Co. Ltd",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [70],
+    "manufacturer": "Kamiya Studio Co. Ltd",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [71],
+    "manufacturer": "Akai Electric Co. Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [72],
+    "manufacturer": "Victor Company of Japan, Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [75],
+    "manufacturer": "Fujitsu Limited",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [76],
+    "manufacturer": "Sony Corporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [78],
+    "manufacturer": "Teac Corporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [80],
+    "manufacturer": "Matsushita Electric Industrial Co. , Ltd",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [81],
+    "manufacturer": "Fostex Corporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [82],
+    "manufacturer": "Zoom Corporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [84],
+    "manufacturer": "Matsushita Communication Industrial Co., Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [85],
+    "manufacturer": "Suzuki Musical Instruments MFG. Co., Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [86],
+    "manufacturer": "Fuji Sound Corporation Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [87],
+    "manufacturer": "Acoustic Technical Laboratory, Inc.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [89],
+    "manufacturer": "Faith, Inc.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [90],
+    "manufacturer": "Internet Corporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [92],
+    "manufacturer": "Seekers Co. Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [95],
+    "manufacturer": "SD Card Association",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [96],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [97],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [98],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [99],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [100],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [101],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [102],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [103],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [104],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [105],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [106],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [107],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [108],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [109],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [110],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [111],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [112],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [113],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [114],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [115],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [116],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [117],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [118],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [119],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [120],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [121],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [122],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [123],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [124],
+    "manufacturer": "[Reserved for Other Uses]",
+    "group": "Other",
+    "reserved": true
+  },
+  {
+    "id": [125],
+    "manufacturer": "[Non-commercial]",
+    "group": "Special",
+    "reserved": true
+  },
+  {
+    "id": [126],
+    "manufacturer": "[Universal Non-Real-Time]",
+    "group": "Special",
+    "reserved": true
+  },
+  {
+    "id": [127],
+    "manufacturer": "[Universal Real-Time]",
+    "group": "Special",
+    "reserved": true
+  },
+  {
+    "id": [0, 0, 0],
+    "manufacturer": "[Invalid]",
+    "group": "Special",
+    "reserved": true
+  },
+  {
+    "id": [0, 0, 1],
+    "manufacturer": "Time/Warner Interactive",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 2],
+    "manufacturer": "Advanced Gravis Comp. Tech Ltd.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 3],
+    "manufacturer": "Media Vision",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 4],
+    "manufacturer": "Dornes Research Group",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 5],
+    "manufacturer": "K-Muse",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 6],
+    "manufacturer": "Stypher",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 7],
+    "manufacturer": "Digital Music Corp.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 8],
+    "manufacturer": "IOTA Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 9],
+    "manufacturer": "New England Digital",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 10],
+    "manufacturer": "Artisyn",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 11],
+    "manufacturer": "IVL Technologies Ltd.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 12],
+    "manufacturer": "Southern Music Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 13],
+    "manufacturer": "Lake Butler Sound Company",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 14],
+    "manufacturer": "Alesis Studio Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 15],
+    "manufacturer": "Sound Creation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 16],
+    "manufacturer": "DOD Electronics Corp.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 17],
+    "manufacturer": "Studer-Editech",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 18],
+    "manufacturer": "Sonus",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 19],
+    "manufacturer": "Temporal Acuity Products",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 20],
+    "manufacturer": "Perfect Fretworks",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 21],
+    "manufacturer": "KAT Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 22],
+    "manufacturer": "Opcode Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 23],
+    "manufacturer": "Rane Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 24],
+    "manufacturer": "Anadi Electronique",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 25],
+    "manufacturer": "KMX",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 26],
+    "manufacturer": "Allen & Heath Brenell",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 27],
+    "manufacturer": "Peavey Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 28],
+    "manufacturer": "360 Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 29],
+    "manufacturer": "Spectrum Design and Development",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 30],
+    "manufacturer": "Marquis Music",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 31],
+    "manufacturer": "Zeta Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 32],
+    "manufacturer": "Axxes (Brian Parsonett)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 33],
+    "manufacturer": "Orban",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 34],
+    "manufacturer": "Indian Valley Mfg.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 35],
+    "manufacturer": "Triton",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 36],
+    "manufacturer": "KTI",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 37],
+    "manufacturer": "Breakaway Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 38],
+    "manufacturer": "Leprecon / CAE Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 39],
+    "manufacturer": "Harrison Systems Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 40],
+    "manufacturer": "Future Lab/Mark Kuo",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 41],
+    "manufacturer": "Rocktron Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 42],
+    "manufacturer": "PianoDisc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 43],
+    "manufacturer": "Cannon Research Group",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 44],
+    "manufacturer": "[Reserved]",
+    "group": "NorthAmerica",
+    "reserved": true
+  },
+  {
+    "id": [0, 0, 45],
+    "manufacturer": "Rodgers Instrument LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 46],
+    "manufacturer": "Blue Sky Logic",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 47],
+    "manufacturer": "Encore Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 48],
+    "manufacturer": "Uptown",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 49],
+    "manufacturer": "Voce",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 50],
+    "manufacturer": "CTI Audio, Inc. (Musically Intel. Devs.)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 51],
+    "manufacturer": "S3 Incorporated",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 52],
+    "manufacturer": "Broderbund / Red Orb",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 53],
+    "manufacturer": "Allen Organ Co.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 54],
+    "manufacturer": "[Reserved]",
+    "group": "NorthAmerica",
+    "reserved": true
+  },
+  {
+    "id": [0, 0, 55],
+    "manufacturer": "Music Quest",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 56],
+    "manufacturer": "Aphex",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 57],
+    "manufacturer": "Gallien Krueger",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 58],
+    "manufacturer": "IBM",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 59],
+    "manufacturer": "Mark Of The Unicorn",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 0, 60],
+    "manufacturer": "Hotz Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 61],
+    "manufacturer": "ETA Lighting",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 62],
+    "manufacturer": "NSI Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 63],
+    "manufacturer": "Ad Lib, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 64],
+    "manufacturer": "Richmond Sound Design",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 65],
+    "manufacturer": "Microsoft",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 0, 66],
+    "manufacturer": "Mindscape (Software Toolworks)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 67],
+    "manufacturer": "Russ Jones Marketing / Niche",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 68],
+    "manufacturer": "Intone",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 69],
+    "manufacturer": "Advanced Remote Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 70],
+    "manufacturer": "White Instruments",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 71],
+    "manufacturer": "GT Electronics/Groove Tubes",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 72],
+    "manufacturer": "Pacific Research & Engineering",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 73],
+    "manufacturer": "Timeline Vista, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 74],
+    "manufacturer": "Mesa Boogie Ltd.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 75],
+    "manufacturer": "FSLI",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 76],
+    "manufacturer": "Sequoia Development Group",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 77],
+    "manufacturer": "Studio Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 78],
+    "manufacturer": "Euphonix, Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 79],
+    "manufacturer": "InterMIDI, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 80],
+    "manufacturer": "MIDI Solutions Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 81],
+    "manufacturer": "3DO Company",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 82],
+    "manufacturer": "Lightwave Research / High End Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 83],
+    "manufacturer": "Micro-W Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 84],
+    "manufacturer": "Spectral Synthesis, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 85],
+    "manufacturer": "Lone Wolf",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 86],
+    "manufacturer": "Studio Technologies Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 87],
+    "manufacturer": "Peterson Electro-Musical Product, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 88],
+    "manufacturer": "Atari Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 89],
+    "manufacturer": "Marion Systems Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 90],
+    "manufacturer": "Design Event",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 91],
+    "manufacturer": "Winjammer Software Ltd.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 92],
+    "manufacturer": "AT&T Bell Laboratories",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 93],
+    "manufacturer": "[Reserved]",
+    "group": "NorthAmerica",
+    "reserved": true
+  },
+  {
+    "id": [0, 0, 94],
+    "manufacturer": "Symetrix",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 95],
+    "manufacturer": "MIDI the World",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 96],
+    "manufacturer": "Spatializer",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 97],
+    "manufacturer": "Micros 'N MIDI",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 98],
+    "manufacturer": "Accordians International",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 99],
+    "manufacturer": "EuPhonics (now 3Com)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 100],
+    "manufacturer": "Musonix",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 101],
+    "manufacturer": "Turtle Beach Systems (Voyetra)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 102],
+    "manufacturer": "Loud Technologies / Mackie",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 103],
+    "manufacturer": "Compuserve",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 104],
+    "manufacturer": "BEC Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 105],
+    "manufacturer": "QRS Music Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 106],
+    "manufacturer": "P.G. Music",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 107],
+    "manufacturer": "Sierra Semiconductor",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 108],
+    "manufacturer": "EpiGraf",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 109],
+    "manufacturer": "Electronics Diversified Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 110],
+    "manufacturer": "Tune 1000",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 111],
+    "manufacturer": "Advanced Micro Devices",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 112],
+    "manufacturer": "Mediamation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 113],
+    "manufacturer": "Sabine Musical Mfg. Co. Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 114],
+    "manufacturer": "Woog Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 115],
+    "manufacturer": "Micropolis Corp",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 116],
+    "manufacturer": "Ta Horng Musical Instrument",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 117],
+    "manufacturer": "e-Tek Labs (Forte Tech)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 118],
+    "manufacturer": "Electro-Voice",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 119],
+    "manufacturer": "Midisoft Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 120],
+    "manufacturer": "QSound Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 121],
+    "manufacturer": "Westrex",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 122],
+    "manufacturer": "Nvidia",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 123],
+    "manufacturer": "ESS Technology",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 124],
+    "manufacturer": "Media Trix Peripherals",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 125],
+    "manufacturer": "Brooktree Corp",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 126],
+    "manufacturer": "Otari Corp",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 0, 127],
+    "manufacturer": "Key Electronics, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 0],
+    "manufacturer": "Shure Incorporated",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 1],
+    "manufacturer": "AuraSound",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 2],
+    "manufacturer": "Crystal Semiconductor",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 3],
+    "manufacturer": "Conexant (Rockwell)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 4],
+    "manufacturer": "Silicon Graphics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 5],
+    "manufacturer": "M-Audio (Midiman)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 6],
+    "manufacturer": "PreSonus",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 8],
+    "manufacturer": "Topaz Enterprises",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 9],
+    "manufacturer": "Cast Lighting",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 10],
+    "manufacturer": "Microsoft Consumer Division",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 11],
+    "manufacturer": "Sonic Foundry",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 12],
+    "manufacturer": "Line 6 (Fast Forward)(Yamaha)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 1, 13],
+    "manufacturer": "Beatnik Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 14],
+    "manufacturer": "Van Koevering Company",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 15],
+    "manufacturer": "Altech Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 16],
+    "manufacturer": "S & S Research",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 17],
+    "manufacturer": "VLSI Technology",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 18],
+    "manufacturer": "Chromatic Research",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 19],
+    "manufacturer": "Sapphire",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 20],
+    "manufacturer": "IDRC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 21],
+    "manufacturer": "Justonic Tuning",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 22],
+    "manufacturer": "TorComp Research Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 23],
+    "manufacturer": "Newtek Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 24],
+    "manufacturer": "Sound Sculpture",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 25],
+    "manufacturer": "Walker Technical",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 26],
+    "manufacturer": "Digital Harmony (PAVO)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 27],
+    "manufacturer": "InVision Interactive",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 28],
+    "manufacturer": "T-Square Design",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 29],
+    "manufacturer": "Nemesys Music Technology",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 30],
+    "manufacturer": "DBX Professional (Harman Intl)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 31],
+    "manufacturer": "Syndyne Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 32],
+    "manufacturer": "Bitheadz",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 33],
+    "manufacturer": "BandLab Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 34],
+    "manufacturer": "Analog Devices",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 35],
+    "manufacturer": "National Semiconductor",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 36],
+    "manufacturer": "Boom Theory / Adinolfi Alternative Percussion",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 37],
+    "manufacturer": "Virtual DSP Corporation",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 38],
+    "manufacturer": "Antares Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 39],
+    "manufacturer": "Angel Software",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 40],
+    "manufacturer": "St Louis Music",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 41],
+    "manufacturer": "Passport Music Software LLC (Gvox)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 42],
+    "manufacturer": "Ashley Audio Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 43],
+    "manufacturer": "Vari-Lite Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 44],
+    "manufacturer": "Summit Audio Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 45],
+    "manufacturer": "Aureal Semiconductor Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 46],
+    "manufacturer": "SeaSound LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 47],
+    "manufacturer": "U.S. Robotics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 48],
+    "manufacturer": "Aurisis Research",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 49],
+    "manufacturer": "Nearfield Research",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 50],
+    "manufacturer": "FM7 Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 51],
+    "manufacturer": "Swivel Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 52],
+    "manufacturer": "Hyperactive Audio Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 53],
+    "manufacturer": "MidiLite (Castle Studios Productions)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 54],
+    "manufacturer": "Radikal Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 55],
+    "manufacturer": "Roger Linn Design",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 56],
+    "manufacturer": "TC-Helicon Vocal Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 57],
+    "manufacturer": "Event Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 58],
+    "manufacturer": "Sonic Network Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 59],
+    "manufacturer": "Realtime Music Solutions",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 60],
+    "manufacturer": "Apogee Digital",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 61],
+    "manufacturer": "Classical Organs, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 62],
+    "manufacturer": "Microtools Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 63],
+    "manufacturer": "Numark Industries",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 1, 64],
+    "manufacturer": "Frontier Design Group, LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 65],
+    "manufacturer": "Recordare LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 66],
+    "manufacturer": "Starr Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 67],
+    "manufacturer": "Voyager Sound Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 68],
+    "manufacturer": "Manifold Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 69],
+    "manufacturer": "Aviom Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 70],
+    "manufacturer": "Mixmeister Technology",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 71],
+    "manufacturer": "Notation Software",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 72],
+    "manufacturer": "Mercurial Communications",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 73],
+    "manufacturer": "Wave Arts",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 74],
+    "manufacturer": "Logic Sequencing Devices",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 75],
+    "manufacturer": "Axess Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 76],
+    "manufacturer": "Muse Research",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 77],
+    "manufacturer": "Open Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 78],
+    "manufacturer": "Guillemot Corp",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 79],
+    "manufacturer": "Samson Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 80],
+    "manufacturer": "Electronic Theatre Controls",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 81],
+    "manufacturer": "Blackberry (RIM)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 82],
+    "manufacturer": "Mobileer",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 83],
+    "manufacturer": "Synthogy",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 84],
+    "manufacturer": "Lynx Studio Technology Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 85],
+    "manufacturer": "Damage Control Engineering LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 1, 86],
+    "manufacturer": "Yost Engineering, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 87],
+    "manufacturer": "Brooks & Forsman Designs LLC / DrumLite",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 88],
+    "manufacturer": "Infinite Response",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 89],
+    "manufacturer": "Garritan Corp",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 90],
+    "manufacturer": "Plogue Art et Technologie, Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 91],
+    "manufacturer": "RJM Music Technology",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 92],
+    "manufacturer": "Custom Solutions Software",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 93],
+    "manufacturer": "Sonarcana LLC / Highly Liquid",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 94],
+    "manufacturer": "Centrance",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 95],
+    "manufacturer": "Kesumo LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 96],
+    "manufacturer": "Stanton (Gibson Brands)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 97],
+    "manufacturer": "Livid Instruments",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 1, 98],
+    "manufacturer": "First Act / 745 Media",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 99],
+    "manufacturer": "Pygraphics, Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 1, 100],
+    "manufacturer": "Panadigm Innovations Ltd",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 101],
+    "manufacturer": "Avedis Zildjian Co",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 102],
+    "manufacturer": "Auvital Music Corp",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 103],
+    "manufacturer": "You Rock Guitar (was: Inspired Instruments)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 104],
+    "manufacturer": "Chris Grigg Designs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 105],
+    "manufacturer": "Slate Digital LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 106],
+    "manufacturer": "Mixware",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 107],
+    "manufacturer": "Social Entropy",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 108],
+    "manufacturer": "Source Audio LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 1, 109],
+    "manufacturer": "Ernie Ball / Music Man",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 110],
+    "manufacturer": "Fishman",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 111],
+    "manufacturer": "Custom Audio Electronics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 112],
+    "manufacturer": "American Audio/DJ",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 113],
+    "manufacturer": "Mega Control Systems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 114],
+    "manufacturer": "Kilpatrick Audio",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 1, 115],
+    "manufacturer": "iConnectivity",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 116],
+    "manufacturer": "Fractal Audio",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 117],
+    "manufacturer": "NetLogic Microsystems",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 118],
+    "manufacturer": "Music Computing",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 119],
+    "manufacturer": "Nektar Technology Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 120],
+    "manufacturer": "Zenph Sound Innovations",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 121],
+    "manufacturer": "DJTechTools.com",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 122],
+    "manufacturer": "Rezonance Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 123],
+    "manufacturer": "Decibel Eleven",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 1, 124],
+    "manufacturer": "CNMAT",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 125],
+    "manufacturer": "Media Overkill",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 1, 126],
+    "manufacturer": "Confusion Studios",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 1, 127],
+    "manufacturer": "moForte Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 0],
+    "manufacturer": "Miselu Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 1],
+    "manufacturer": "Amelia's Compass LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 2],
+    "manufacturer": "Zivix LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 3],
+    "manufacturer": "Artiphon",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 4],
+    "manufacturer": "Synclavier Digital",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 5],
+    "manufacturer": "Light & Sound Control Devices LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 6],
+    "manufacturer": "Retronyms Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 7],
+    "manufacturer": "JS Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 8],
+    "manufacturer": "Quicco Sound",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 9],
+    "manufacturer": "A-Designs Audio",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 10],
+    "manufacturer": "McCarthy Music Corp",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 11],
+    "manufacturer": "Denon DJ",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 12],
+    "manufacturer": "Keith Robert Murray",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 13],
+    "manufacturer": "Google",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 14],
+    "manufacturer": "ISP Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 15],
+    "manufacturer": "Abstrakt Instruments LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 16],
+    "manufacturer": "Meris LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 17],
+    "manufacturer": "Sensorpoint LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 18],
+    "manufacturer": "Hi-Z Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 19],
+    "manufacturer": "Imitone",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 20],
+    "manufacturer": "Intellijel Designs Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 21],
+    "manufacturer": "Dasz Instruments Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 22],
+    "manufacturer": "Remidi",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 23],
+    "manufacturer": "Disaster Area Designs LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 24],
+    "manufacturer": "Universal Audio",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 25],
+    "manufacturer": "Carter Duncan Corp",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 26],
+    "manufacturer": "Essential Technology",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 27],
+    "manufacturer": "Cantux Research LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 28],
+    "manufacturer": "Hummel Technologies",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 29],
+    "manufacturer": "Sensel Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 30],
+    "manufacturer": "DBML Group",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 31],
+    "manufacturer": "Madrona Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 2, 32],
+    "manufacturer": "Mesa Boogie",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 33],
+    "manufacturer": "Effigy Labs",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 34],
+    "manufacturer": "Amenote",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 35],
+    "manufacturer": "Red Panda LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 36],
+    "manufacturer": "OnSong LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 37],
+    "manufacturer": "Jamboxx Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 38],
+    "manufacturer": "Electro-Harmonix",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 39],
+    "manufacturer": "RnD64 Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 40],
+    "manufacturer": "Neunaber Technology LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 41],
+    "manufacturer": "Kaom Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 42],
+    "manufacturer": "Hallowell EMC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 43],
+    "manufacturer": "Sound Devices, LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 44],
+    "manufacturer": "Spectrasonics, Inc",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 45],
+    "manufacturer": "Second Sound, LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 46],
+    "manufacturer": "8eo (Horn)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 47],
+    "manufacturer": "VIDVOX LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 48],
+    "manufacturer": "Matthews Effects",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 49],
+    "manufacturer": "Bright Blue Beetle",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 50],
+    "manufacturer": "Audio Impressions",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 51],
+    "manufacturer": "Looperlative",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 52],
+    "manufacturer": "Steinway",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 53],
+    "manufacturer": "Ingenious Arts and Technologies LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 54],
+    "manufacturer": "DCA Audio",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 55],
+    "manufacturer": "Buchla USA",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 56],
+    "manufacturer": "Sinicon",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 57],
+    "manufacturer": "Isla Instruments",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 58],
+    "manufacturer": "Soundiron LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 59],
+    "manufacturer": "Sonoclast, LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 60],
+    "manufacturer": "Copper and Cedar",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 61],
+    "manufacturer": "Whirled Notes",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 62],
+    "manufacturer": "Cejetvole, LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 63],
+    "manufacturer": "DAWn Audio LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 64],
+    "manufacturer": "Space Brain Circuits",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 65],
+    "manufacturer": "Caedence",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 66],
+    "manufacturer": "HCN Designs, LLC (The MIDI Maker)",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 67],
+    "manufacturer": "PTZOptics",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 68],
+    "manufacturer": "Noise Engineering",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 69],
+    "manufacturer": "Synthesia LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 70],
+    "manufacturer": "Jeff Whitehead Lutherie LLC",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 71],
+    "manufacturer": "Wampler Pedals Inc.",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 72],
+    "manufacturer": "Tapis Magique",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 2, 73],
+    "manufacturer": "Leaf Secrets",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 2, 74],
+    "manufacturer": "Groove Synthesis",
+    "group": "NorthAmerica",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 0],
+    "manufacturer": "Dream SAS",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 32, 1],
+    "manufacturer": "Strand Lighting",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 2],
+    "manufacturer": "Amek Div of Harman Industries",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 3],
+    "manufacturer": "Casa Di Risparmio Di Loreto",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 4],
+    "manufacturer": "B\u00c3\u00b6hm electronic GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 5],
+    "manufacturer": "Syntec Digital Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 6],
+    "manufacturer": "Trident Audio Developments",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 7],
+    "manufacturer": "Real World Studio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 8],
+    "manufacturer": "Evolution Synthesis, Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 9],
+    "manufacturer": "Yes Technology",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 10],
+    "manufacturer": "Audiomatica",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 11],
+    "manufacturer": "Bontempi SpA (Sigma)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 12],
+    "manufacturer": "F.B.T. Elettronica SpA",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 13],
+    "manufacturer": "MidiTemp GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 14],
+    "manufacturer": "LA Audio (Larking Audio)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 15],
+    "manufacturer": "Zero 88 Lighting Limited",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 16],
+    "manufacturer": "Micon Audio Electronics GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 17],
+    "manufacturer": "Forefront Technology",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 18],
+    "manufacturer": "Studio Audio and Video Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 19],
+    "manufacturer": "Kenton Electronics",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 20],
+    "manufacturer": "Celco/ Electrosonic",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 21],
+    "manufacturer": "ADB",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 22],
+    "manufacturer": "Marshall Products Limited",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 23],
+    "manufacturer": "DDA",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 24],
+    "manufacturer": "BSS Audio Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 25],
+    "manufacturer": "MA Lighting Technology",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 26],
+    "manufacturer": "Fatar SRL c/o Music Industries",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 27],
+    "manufacturer": "QSC Audio Products Inc.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 28],
+    "manufacturer": "Artisan Clasic Organ Inc.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 29],
+    "manufacturer": "Orla Spa",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 30],
+    "manufacturer": "Pinnacle Audio (Klark Teknik PLC)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 31],
+    "manufacturer": "TC Electronics",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 32],
+    "manufacturer": "Doepfer Musikelektronik GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 33],
+    "manufacturer": "Creative ATC / E-mu",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 34],
+    "manufacturer": "Seyddo/Minami",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 35],
+    "manufacturer": "LG Electronics (Goldstar)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 36],
+    "manufacturer": "Midisoft sas di M.Cima & C",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 37],
+    "manufacturer": "Samick Musical Inst. Co. Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 38],
+    "manufacturer": "Penny and Giles (Bowthorpe PLC)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 39],
+    "manufacturer": "Acorn Computer",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 40],
+    "manufacturer": "LSC Electronics Pty. Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 41],
+    "manufacturer": "Focusrite/Novation",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 32, 42],
+    "manufacturer": "Samkyung Mechatronics",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 43],
+    "manufacturer": "Medeli Electronics Co.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 32, 44],
+    "manufacturer": "Charlie Lab SRL",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 45],
+    "manufacturer": "Blue Chip Music Technology",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 46],
+    "manufacturer": "BEE OH Corp",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 47],
+    "manufacturer": "LG Semicon America",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 48],
+    "manufacturer": "TESI",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 49],
+    "manufacturer": "EMAGIC",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 50],
+    "manufacturer": "Behringer GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 51],
+    "manufacturer": "Access Music Electronics",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 32, 52],
+    "manufacturer": "Synoptic",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 53],
+    "manufacturer": "Hanmesoft",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 54],
+    "manufacturer": "Terratec Electronic GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 55],
+    "manufacturer": "Proel SpA",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 56],
+    "manufacturer": "IBK MIDI",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 57],
+    "manufacturer": "IRCAM",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 58],
+    "manufacturer": "Propellerhead Software",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 59],
+    "manufacturer": "Red Sound Systems Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 60],
+    "manufacturer": "Elektron ESI AB",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 61],
+    "manufacturer": "Sintefex Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 62],
+    "manufacturer": "MAM (Music and More)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 63],
+    "manufacturer": "Amsaro GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 64],
+    "manufacturer": "CDS Advanced Technology BV (Lanbox)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 65],
+    "manufacturer": "Mode Machines (Touched By Sound GmbH)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 66],
+    "manufacturer": "DSP Arts",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 67],
+    "manufacturer": "Phil Rees Music Tech",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 68],
+    "manufacturer": "Stamer Musikanlagen GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 69],
+    "manufacturer": "Musical Muntaner S.A. dba Soundart",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 70],
+    "manufacturer": "C-Mexx Software",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 71],
+    "manufacturer": "Klavis Technologies",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 72],
+    "manufacturer": "Noteheads AB",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 73],
+    "manufacturer": "Algorithmix",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 74],
+    "manufacturer": "Skrydstrup R&D",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 75],
+    "manufacturer": "Professional Audio Company",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 76],
+    "manufacturer": "NewWave Labs (MadWaves)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 77],
+    "manufacturer": "Vermona",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 78],
+    "manufacturer": "Nokia",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 79],
+    "manufacturer": "Wave Idea",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 80],
+    "manufacturer": "Hartmann GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 81],
+    "manufacturer": "Lion's Tracs",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 82],
+    "manufacturer": "Analogue Systems",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 83],
+    "manufacturer": "Focal-JMlab",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 84],
+    "manufacturer": "Ringway Electronics (Chang-Zhou) Co Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 32, 85],
+    "manufacturer": "Faith Technologies (Digiplug)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 86],
+    "manufacturer": "Showworks",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 87],
+    "manufacturer": "Manikin Electronic",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 88],
+    "manufacturer": "1 Come Tech",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 89],
+    "manufacturer": "Phonic Corp",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 90],
+    "manufacturer": "Dolby Australia (Lake)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 91],
+    "manufacturer": "Silansys Technologies",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 92],
+    "manufacturer": "Winbond Electronics",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 93],
+    "manufacturer": "Cinetix Medien und Interface GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 94],
+    "manufacturer": "A&G Soluzioni Digitali",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 95],
+    "manufacturer": "Sequentix GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 96],
+    "manufacturer": "Oram Pro Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 97],
+    "manufacturer": "Be4 Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 98],
+    "manufacturer": "Infection Music",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 99],
+    "manufacturer": "Central Music Co. (CME)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 32, 100],
+    "manufacturer": "genoQs Machines GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 101],
+    "manufacturer": "Medialon",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 102],
+    "manufacturer": "Waves Audio Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 103],
+    "manufacturer": "Jerash Labs",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 104],
+    "manufacturer": "Da Fact",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 105],
+    "manufacturer": "Elby Designs",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 106],
+    "manufacturer": "Spectral Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 107],
+    "manufacturer": "Arturia",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 108],
+    "manufacturer": "Vixid",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 109],
+    "manufacturer": "C-Thru Music",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 110],
+    "manufacturer": "Ya Horng Electronic Co LTD",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 111],
+    "manufacturer": "SM Pro Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 112],
+    "manufacturer": "OTO Machines",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 113],
+    "manufacturer": "ELZAB S.A. (G LAB)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 114],
+    "manufacturer": "Blackstar Amplification Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 115],
+    "manufacturer": "M3i Technologies GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 116],
+    "manufacturer": "Gemalto (from Xiring)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 117],
+    "manufacturer": "Prostage SL",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 118],
+    "manufacturer": "Teenage Engineering",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 32, 119],
+    "manufacturer": "Tobias Erichsen Consulting",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 120],
+    "manufacturer": "Nixer Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 121],
+    "manufacturer": "Hanpin Electron Co Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 122],
+    "manufacturer": "\"MIDI-hardware\" R.Sowa",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 32, 123],
+    "manufacturer": "Beyond Music Industrial Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 124],
+    "manufacturer": "Kiss Box B.V.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 32, 125],
+    "manufacturer": "Misa Digital Technologies Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 126],
+    "manufacturer": "AI Musics Technology Inc",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 32, 127],
+    "manufacturer": "Serato Inc LP",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 0],
+    "manufacturer": "Limex",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 1],
+    "manufacturer": "Kyodday (Tokai)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 2],
+    "manufacturer": "Mutable Instruments",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 3],
+    "manufacturer": "PreSonus Software Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 4],
+    "manufacturer": "Ingenico (was Xiring)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 5],
+    "manufacturer": "Fairlight Instruments Pty Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 6],
+    "manufacturer": "Musicom Lab",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 7],
+    "manufacturer": "Modal Electronics (Modulus/VacoLoco)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 8],
+    "manufacturer": "RWA (Hong Kong) Limited",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 9],
+    "manufacturer": "Native Instruments",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 10],
+    "manufacturer": "Naonext",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 11],
+    "manufacturer": "MFB",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 12],
+    "manufacturer": "Teknel Research",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 13],
+    "manufacturer": "Ploytec GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 14],
+    "manufacturer": "Surfin Kangaroo Studio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 15],
+    "manufacturer": "Philips Electronics HK Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 16],
+    "manufacturer": "ROLI Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 17],
+    "manufacturer": "Panda-Audio Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 18],
+    "manufacturer": "BauM Software",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 19],
+    "manufacturer": "Machinewerks Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 20],
+    "manufacturer": "Xiamen Elane Electronics",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 21],
+    "manufacturer": "Marshall Amplification PLC",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 22],
+    "manufacturer": "Kiwitechnics Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 23],
+    "manufacturer": "Rob Papen",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 24],
+    "manufacturer": "Spicetone OU",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 25],
+    "manufacturer": "V3Sound",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 26],
+    "manufacturer": "IK Multimedia",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 27],
+    "manufacturer": "Novalia Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 28],
+    "manufacturer": "Modor Music",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 29],
+    "manufacturer": "Ableton",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 30],
+    "manufacturer": "Dtronics",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 31],
+    "manufacturer": "ZAQ Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 32],
+    "manufacturer": "Muabaobao Education Technology Co Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 33],
+    "manufacturer": "Flux Effects",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 34],
+    "manufacturer": "Audiothingies (MCDA)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 35],
+    "manufacturer": "Retrokits",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 36],
+    "manufacturer": "Morningstar FX Pte Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 37],
+    "manufacturer": "Changsha Hotone Audio Co Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 38],
+    "manufacturer": "Expressive E",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 39],
+    "manufacturer": "Expert Sleepers Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 40],
+    "manufacturer": "Timecode-Vision Technology",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 41],
+    "manufacturer": "Hornberg Research GbR",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 42],
+    "manufacturer": "Sonic Potions",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 43],
+    "manufacturer": "Audiofront",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 44],
+    "manufacturer": "Fred's Lab",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 45],
+    "manufacturer": "Audio Modeling",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 46],
+    "manufacturer": "C. Bechstein Digital GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 47],
+    "manufacturer": "Motas Electronics Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 48],
+    "manufacturer": "Elk Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 49],
+    "manufacturer": "Sonic Academy Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 33, 50],
+    "manufacturer": "Bome Software",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 51],
+    "manufacturer": "AODYO SAS",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 52],
+    "manufacturer": "Pianoforce S.R.O",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 53],
+    "manufacturer": "Dreadbox P.C.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 54],
+    "manufacturer": "TouchKeys Instruments Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 55],
+    "manufacturer": "The Gigrig Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 56],
+    "manufacturer": "ALM Co",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 57],
+    "manufacturer": "CH Sound Design",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 58],
+    "manufacturer": "Beat Bars",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 59],
+    "manufacturer": "Blokas",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 60],
+    "manufacturer": "GEWA Music GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 61],
+    "manufacturer": "dadamachines",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 62],
+    "manufacturer": "Augmented Instruments Ltd (Bela)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 63],
+    "manufacturer": "Supercritical Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 64],
+    "manufacturer": "Genki Instruments",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 65],
+    "manufacturer": "Marienberg Devices Germany",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 66],
+    "manufacturer": "Supperware Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 67],
+    "manufacturer": "Imoxplus BVBA",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 68],
+    "manufacturer": "Swapp Technologies SRL",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 69],
+    "manufacturer": "Electra One S.R.O.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 70],
+    "manufacturer": "Digital Clef Limited",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 71],
+    "manufacturer": "Paul Whittington Group Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 72],
+    "manufacturer": "Music Hackspace",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 73],
+    "manufacturer": "Bitwig GMBH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 74],
+    "manufacturer": "Enhancia",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 75],
+    "manufacturer": "KV 331",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 76],
+    "manufacturer": "Tehnicadelarte",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 77],
+    "manufacturer": "Endlesss Studio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 78],
+    "manufacturer": "Dongguan MIDIPLUS Co., LTD",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 79],
+    "manufacturer": "Gracely Pty Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 80],
+    "manufacturer": "Embodme",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 81],
+    "manufacturer": "MuseScore",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 82],
+    "manufacturer": "EPFL (E-Lab)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 83],
+    "manufacturer": "Orb3 Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 84],
+    "manufacturer": "Pitch Innovations",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 85],
+    "manufacturer": "Playces",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 86],
+    "manufacturer": "UDO Audio LTD",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 87],
+    "manufacturer": "RSS Sound Design",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 88],
+    "manufacturer": "Nonlinear Labs GmbH",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 89],
+    "manufacturer": "Robkoo Information & Technologies Co., Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 90],
+    "manufacturer": "Cari Electronic",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 91],
+    "manufacturer": "Oxi Electronic Instruments SL",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 92],
+    "manufacturer": "XMPT",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 93],
+    "manufacturer": "SHANGHAI HUAXIN MUSICAL INSTRUMENT",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 94],
+    "manufacturer": "Shenzhen Huashi Technology Co., Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 96],
+    "manufacturer": "Guangzhou Rantion Technology Co., Ltd.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 97],
+    "manufacturer": "Ryme Music",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 98],
+    "manufacturer": "GS Music",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 99],
+    "manufacturer": "Shenzhen Flamma Innovation Co., Ltd",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 100],
+    "manufacturer": "Shenzhen Mooer Audio Co.,LTD.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 101],
+    "manufacturer": "Raw Material Software Limited (JUCE)",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 102],
+    "manufacturer": "Birdkids",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 103],
+    "manufacturer": "Beijing QianYinHuLian Tech. Co",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 104],
+    "manufacturer": "Nimikry Music OG",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 105],
+    "manufacturer": "Newzik",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 106],
+    "manufacturer": "Hamburg Wave",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 107],
+    "manufacturer": "Grimm Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 108],
+    "manufacturer": "Arcana Instruments LTD.",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 109],
+    "manufacturer": "GameChanger Audio",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 33, 110],
+    "manufacturer": "OakTone",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 111],
+    "manufacturer": "The Digi-Gurdy: A MIDI Hurdy Gurdy",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 112],
+    "manufacturer": "MusiKraken",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 113],
+    "manufacturer": "PhotoSynth > InterFACE",
+    "group": "Europe",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 33, 114],
+    "manufacturer": "Instruments of Things",
+    "group": "Europe",
+    "reserved": false,
+    "status": "SysExOnly"
+  },
+  {
+    "id": [0, 64, 0],
+    "manufacturer": "Crimson Technology Inc.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 64, 1],
+    "manufacturer": "Softbank Mobile Corp",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 64, 3],
+    "manufacturer": "D&M Holdings Inc.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 64, 4],
+    "manufacturer": "Xing Inc.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 64, 5],
+    "manufacturer": "AlphaTheta Corporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 64, 6],
+    "manufacturer": "PioneerCorporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 64, 7],
+    "manufacturer": "SlikCorporation",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Current"
+  },
+  {
+    "id": [0, 72, 0],
+    "manufacturer": "sigboost Co., Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 72, 1],
+    "manufacturer": "Lost Technology",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 72, 2],
+    "manufacturer": "Uchiwa Fujin",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 72, 3],
+    "manufacturer": "Tsukuba Science Co., Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 72, 4],
+    "manufacturer": "Sonicware Co., Ltd.",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Lapsed"
+  },
+  {
+    "id": [0, 72, 5],
+    "manufacturer": "Poppy only workshop",
+    "group": "Japan",
+    "reserved": false,
+    "status": "Lapsed"
+  }
+]
