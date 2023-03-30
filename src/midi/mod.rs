@@ -1,5 +1,7 @@
+pub mod controls;
 pub mod sysex;
 
+// Bit masks
 const MIDI_BYTE_TYPE_MASK: u8 = 0b_1000_0000_u8;
 const MIDI_CHANNEL_MASK: u8 = 0b_0000_1111_u8;
 const MIDI_STATUS_MASK: u8 = 0b_1111_0000_u8;
@@ -31,23 +33,57 @@ const MIDI_SYSRT_STOP: u8 = 0xFC_u8;
 const MIDI_SYSRT_ACTIVE_SENSE: u8 = 0xFE_u8;
 const MIDI_SYSRT_SYSTEM_RESET: u8 = 0xFF_u8;
 
-pub struct MidiNote {
-    pub channel: u8,
-    pub note: u8,
-    pub velocity: u8,
+#[derive(Debug)]
+pub enum MidiChannelMode {
+    AllSoundOff,
+    ResetAllControllers,
+    LocalControl(bool),
+    AllNotesOff,
+    OmniModeOff,
+    OmniModeOn,
+    MonoModeOn,
+    PolyModeOn,
 }
 
 #[derive(Debug)]
 pub enum MidiMessage {
     // Channel Messages
-    NoteOff(MidiNote),
-    NoteOn(MidiNote),
-    PolyPressure(MidiPolyPressure),
-    ControlChange(MidiControlChange),
-    ChannelMode(MidiChannelMode),
-    ProgramChange(u8),
-    ChannelPressure(u8),
-    PitchBend(u16),
+    NoteOff {
+        channel: u8,
+        note: u8,
+        velocity: u8,
+    },
+    NoteOn {
+        channel: u8,
+        note: u8,
+        velocity: u8,
+    },
+    PolyPressure {
+        channel: u8,
+        note: u8,
+        pressure: u8,
+    },
+    ControlChange {
+        channel: u8,
+        control: u8,
+        value: u8,
+    },
+    ChannelMode {
+        channel: u8,
+        mode: MidiChannelMode,
+    },
+    ProgramChange {
+        channel: u8,
+        program: u8,
+    },
+    ChannelPressure {
+        channel: u8,
+        pressure: u8,
+    },
+    PitchBend {
+        channel: u8,
+        value: u16,
+    },
 
     // System Common
     MtcQuarterFrame(u8),
@@ -64,12 +100,14 @@ pub enum MidiMessage {
     SystemReset,
 
     // System Exclusive
-    SystemExclusive,
+    SystemExclusive(Vec<u8>),
 
     /// Undefined status message
     Undefined(u8),
     /// Data byte that is not associated with a status message
     OrphanedData(u8),
+    ///
+    ProtocolError(String),
 }
 
 pub struct MidiParser {
@@ -97,7 +135,7 @@ impl MidiParser {
         if (byte & MIDI_BYTE_TYPE_MASK) != 0 {
             if (byte & MIDI_STATUS_MASK) == 0xF0 {
                 // System Message
-                self.parse_system_message(byte)
+                return self.parse_system_message(byte);
             } else {
                 // Channel Message
                 self.channel = byte & MIDI_CHANNEL_MASK;
@@ -105,7 +143,7 @@ impl MidiParser {
             }
         } else {
             // Data byte
-            self.parse_data_byte(byte)
+            return self.parse_data_byte(byte);
         }
         None
     }
@@ -136,6 +174,19 @@ impl MidiParser {
             MIDI_SYSRT_ACTIVE_SENSE => return Some(MidiMessage::ActiveSensing),
             MIDI_SYSRT_SYSTEM_RESET => return Some(MidiMessage::SystemReset),
 
+            // System Exclusive Message
+            MIDI_SYSEX_SOX => {
+                self.set_state(MIDI_SYSEX_SOX);
+                self.sysex = vec![];
+            }
+            MIDI_SYSEX_EOX => {
+                if self.status != Some(MIDI_SYSEX_SOX) {
+                    return Some(MidiMessage::ProtocolError("Received `End of Exclusive` while not within a System Exclusive sequence".to_string()))
+                }
+                self.clear_state();
+                return Some(MidiMessage::SystemExclusive(self.sysex.clone()))
+            }
+
             // Undefined System Message - no effect to running status
             _ => return Some(MidiMessage::Undefined(byte)),
         }
@@ -149,43 +200,100 @@ impl MidiParser {
                 // Channel Messages
                 MIDI_MSG_NOTE_OFF => {
                     if let Some(note) = self.d0 {
-                        return Some(MidiMessage::NoteOff(MidiNote {
+                        return Some(MidiMessage::NoteOff {
                             channel: self.channel,
                             note,
                             velocity: byte,
-                        }));
+                        });
                     }
                 }
                 MIDI_MSG_NOTE_ON => {
                     if let Some(note) = self.d0 {
-                        return Some(MidiMessage::NoteOn(MidiNote {
+                        return Some(MidiMessage::NoteOn {
                             channel: self.channel,
                             note,
                             velocity: byte,
-                        }));
+                        });
                     }
                 }
                 MIDI_MSG_POLY_PRESSURE => {
                     if let Some(note) = self.d0 {
-                        return Some(MidiMessage::PolyPressure(MidiNote {
+                        return Some(MidiMessage::PolyPressure {
                             channel: self.channel,
                             note,
-                            velocity: byte,
-                        }));
+                            pressure: byte,
+                        });
                     }
                 }
-                MIDI_MSG_CONTROL_CHANGE => todo!(),
+                MIDI_MSG_CONTROL_CHANGE => {
+                    if let Some(control) = self.d0 {
+                        return match control {
+                            120 => Some(MidiMessage::ChannelMode {
+                                channel: self.channel,
+                                mode: MidiChannelMode::AllSoundOff,
+                            }),
+                            121 => Some(MidiMessage::ChannelMode {
+                                channel: self.channel,
+                                mode: MidiChannelMode::ResetAllControllers,
+                            }),
+                            122 => {
+                                if byte != 0 || byte != 127 {
+                                    Some(MidiMessage::ProtocolError(format!("Invalid data value for Channel Mode 122 Local Control. Got {}, expected to be 0 (local control off) or 127 (local control on)", byte)))
+                                } else {
+                                    Some(MidiMessage::ChannelMode {
+                                        channel: self.channel,
+                                        mode: MidiChannelMode::LocalControl(byte == 127),
+                                    })
+                                }
+                            }
+                            123 => Some(MidiMessage::ChannelMode {
+                                channel: self.channel,
+                                mode: MidiChannelMode::AllNotesOff,
+                            }),
+                            124 => Some(MidiMessage::ChannelMode {
+                                channel: self.channel,
+                                mode: MidiChannelMode::OmniModeOff,
+                            }),
+                            125 => Some(MidiMessage::ChannelMode {
+                                channel: self.channel,
+                                mode: MidiChannelMode::OmniModeOn,
+                            }),
+                            126 => Some(MidiMessage::ChannelMode {
+                                channel: self.channel,
+                                mode: MidiChannelMode::MonoModeOn,
+                            }),
+                            127 => Some(MidiMessage::ChannelMode {
+                                channel: self.channel,
+                                mode: MidiChannelMode::PolyModeOn,
+                            }),
+                            _ => Some(MidiMessage::ControlChange {
+                                channel: self.channel,
+                                control,
+                                value: byte,
+                            }),
+                        };
+                    }
+                }
                 MIDI_MSG_PROGRAM_CHANGE => {
-                    return Some(MidiMessage::ProgramChange(byte));
+                    return Some(MidiMessage::ProgramChange {
+                        channel: self.channel,
+                        program: byte,
+                    });
                 }
                 MIDI_MSG_CHANNEL_PRESSURE => {
-                    return Some(MidiMessage::ChannelPressure(byte));
+                    return Some(MidiMessage::ChannelPressure {
+                        channel: self.channel,
+                        pressure: byte,
+                    });
                 }
                 MIDI_MSG_PITCH_BEND => {
                     if let Some(lsb) = self.d0 {
                         self.clear_state();
                         let bend = ((byte as u16) << 7) | (lsb as u16);
-                        return Some(MidiMessage::PitchBend(bend));
+                        return Some(MidiMessage::PitchBend {
+                            channel: self.channel,
+                            value: bend,
+                        });
                     }
                 }
 
@@ -206,6 +314,11 @@ impl MidiParser {
                     return Some(MidiMessage::SongSelect(byte));
                 }
 
+                // System Exclusive
+                MIDI_SYSEX_SOX => {
+                    self.sysex.push(byte);
+                }
+
                 // Base case - this shouldn't happen
                 _ => {
                     panic!("Got data byte 0x{:2X} while in state 0x{:2x}", byte, state);
@@ -215,7 +328,7 @@ impl MidiParser {
             return Some(MidiMessage::OrphanedData(byte));
         }
         self.d0 = Some(byte);
-        return None;
+        None
     }
 
     /// Set the internal state to a given status message type and clear the data buffer
