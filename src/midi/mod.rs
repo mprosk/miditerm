@@ -5,6 +5,9 @@ mod parser;
 pub mod sysex;
 mod unparser;
 
+// PUBLIC CONSTANTS
+pub const MIDI_BAUD_RATE: u32 = 31_250_u32;
+
 // Bit masks
 const MIDI_BYTE_TYPE_MASK: u8 = 0b_1000_0000_u8;
 const MIDI_DATA_MASK: u8 = 0b_0111_1111_u8;
