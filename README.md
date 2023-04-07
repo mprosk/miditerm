@@ -1,4 +1,4 @@
-# miditerm
+# MidiTerm
 MidiTerm is a Rust-based MIDI debugger and protocol analyzer. It is intended to assist those developing their own MIDI devices by providing low-level decoding of the MIDI data stream. Tools like MIDI-OX and others are useful, but rely on class-compliant USB MIDI adapters which may be hiding MIDI features like running status, System Real Time messages in the middle of other messages. These nuances of the protocol are important to account for when developing drivers for your MIDI device.
 
 Check out [miditerm-adapter](https://github.com/mprosk/miditer-adapter) for a way to connect DIN MIDI devices as a USB serial device
