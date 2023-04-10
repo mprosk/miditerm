@@ -1,4 +1,4 @@
-fn get_controller_name(control_number: u8) -> String {
+pub fn get_controller_name(control_number: u8) -> String {
     match control_number {
         0x00 => "Bank select",
         0x01 => "Mod wheel",

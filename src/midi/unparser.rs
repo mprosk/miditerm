@@ -172,8 +172,6 @@ impl MidiMessage {
             MidiMessage::SystemExclusive(data) => {
                 [vec![MIDI_SYSEX_SOX], data, vec![MIDI_SYSEX_EOX]].concat()
             }
-
-            _ => vec![],
         }
     }
 }

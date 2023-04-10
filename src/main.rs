@@ -1,10 +1,13 @@
 pub mod midi;
+// mod ui;
 
 use crate::midi::MidiParser;
 use anyhow::Context;
-use std::fs::File;
-use std::io::{BufReader, Read};
-use std::path::PathBuf;
+use std::{
+    fs::File,
+    io::{BufReader, Read},
+    path::PathBuf,
+};
 use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
@@ -18,18 +21,18 @@ struct Args {
     port: Option<String>,
 }
 
-fn main() {
+fn main() -> Result<(), anyhow::Error> {
     let args = Args::from_args();
     println!("{:?}", args);
     if let Some(filepath) = args.file {
-        if let Err(e) = read_from_file(filepath) {
-            println!("Error parsing MIDI from file: {:?}", e);
-        }
+        return read_from_file(filepath).context("Error parsing MIDI from file");
     } else if let Some(port) = args.port {
-        if let Err(e) = read_from_serial(port) {
-            println!("Error parsing MIDI from serial port: {:?}", e);
-        }
+        return read_from_serial(port).context("Error parsing MIDI from serial port");
     }
+
+    // ui::run_application()?;
+
+    Ok(())
 }
 
 fn read_from_file(filepath: PathBuf) -> Result<(), anyhow::Error> {
@@ -67,7 +70,6 @@ fn read_from_serial(port: String) -> Result<(), anyhow::Error> {
 
 fn display_midi(parser: &mut MidiParser, byte: u8) {
     print!("{:02X} ", byte);
-    if let Some(midi) = parser.parse_midi(byte) {
-        println!("{:?}", midi)
-    }
+    let (_message, analysis) = parser.parse_midi(byte);
+    println!("{:?}", analysis);
 }

@@ -70,42 +70,14 @@ pub enum MidiChannelMode {
 #[derive(Debug, PartialEq)]
 pub enum MidiMessage {
     // Channel Messages
-    NoteOff {
-        channel: u8,
-        note: u8,
-        velocity: u8,
-    },
-    NoteOn {
-        channel: u8,
-        note: u8,
-        velocity: u8,
-    },
-    PolyPressure {
-        channel: u8,
-        note: u8,
-        pressure: u8,
-    },
-    ControlChange {
-        channel: u8,
-        control: u8,
-        value: u8,
-    },
-    ChannelMode {
-        channel: u8,
-        mode: MidiChannelMode,
-    },
-    ProgramChange {
-        channel: u8,
-        program: u8,
-    },
-    ChannelPressure {
-        channel: u8,
-        pressure: u8,
-    },
-    PitchBend {
-        channel: u8,
-        value: u16,
-    },
+    NoteOff { channel: u8, note: u8, velocity: u8 },
+    NoteOn { channel: u8, note: u8, velocity: u8 },
+    PolyPressure { channel: u8, note: u8, pressure: u8 },
+    ControlChange { channel: u8, control: u8, value: u8 },
+    ChannelMode { channel: u8, mode: MidiChannelMode },
+    ProgramChange { channel: u8, program: u8 },
+    ChannelPressure { channel: u8, pressure: u8 },
+    PitchBend { channel: u8, value: u16 },
 
     // System Common
     MtcQuarterFrame(u8),
@@ -123,13 +95,28 @@ pub enum MidiMessage {
 
     // System Exclusive
     SystemExclusive(Vec<u8>),
+}
 
-    /// Undefined status message
-    Undefined(u8),
-    /// Data byte that is not associated with a status message
-    OrphanedData(u8),
+/// Responses from the protocol analyzer
+#[derive(Debug, PartialEq)]
+pub enum MidiAnalysis {
+    /// Lowest level of
+    Comment(String),
+    /// Something noteworthy happened
     ///
-    ProtocolError(String),
+    /// Examples:
+    /// - Running Status
+    /// - Note On with velocity 0
+    Info(String),
+    /// Something is wrong but it's not invalid MIDI
+    ///
+    /// Examples:
+    /// - Undefined MIDI messages
+    /// - Orphaned data bytes
+    /// - Timing violations
+    Warning(String),
+    /// The MIDI specification was explicitly violated
+    Violation(String),
 }
 
 /// State machine that decodes MIDI messages byte by byte.
