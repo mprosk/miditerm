@@ -1,5 +1,5 @@
 pub mod midi;
-// mod ui;
+mod ui;
 
 use crate::midi::MidiParser;
 use anyhow::Context;
@@ -30,7 +30,7 @@ fn main() -> Result<(), anyhow::Error> {
         return read_from_serial(port).context("Error parsing MIDI from serial port");
     }
 
-    // ui::run_application()?;
+    ui::run_application()?;
 
     Ok(())
 }
