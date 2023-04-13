@@ -211,7 +211,7 @@ impl MidiParser {
             );
         }
 
-        let state = self.status.unwrap();
+        let state = self.status.expect("Status should be set");
         match state {
             // Channel Messages
             MIDI_MSG_NOTE_OFF => {
@@ -234,8 +234,7 @@ impl MidiParser {
                         None,
                         MidiAnalysis::Comment(format!(
                             "Note Off (Channel {}): Note {}",
-                            self.channel,
-                            byte
+                            self.channel, byte
                         )),
                     )
                 }
@@ -268,8 +267,7 @@ impl MidiParser {
                         None,
                         MidiAnalysis::Comment(format!(
                             "Note On (Channel {}): Note {}",
-                            self.channel,
-                            byte
+                            self.channel, byte
                         )),
                     )
                 }
@@ -409,10 +407,10 @@ impl MidiParser {
             );
         }
 
-        let control = self.d0.unwrap();
+        let control = self.d0.expect("Data byte should be set");
         self.clear_data();
         match control {
-            MIDI_CH_MODE_ALL_SOUNDS_OFF => (
+            MIDI_CMM_ALL_SOUNDS_OFF => (
                 Some(MidiMessage::ChannelMode {
                     channel: self.channel,
                     mode: MidiChannelMode::AllSoundOff,
@@ -427,7 +425,7 @@ impl MidiParser {
                 },
             ),
 
-            MIDI_CH_MODE_RESET_ALL_CONTROLLERS => (
+            MIDI_CMM_RESET_ALL_CONTROLLERS => (
                 Some(MidiMessage::ChannelMode {
                     channel: self.channel,
                     mode: MidiChannelMode::ResetAllControllers,
@@ -445,7 +443,7 @@ impl MidiParser {
                 },
             ),
 
-            MIDI_CH_MODE_LOCAL_CONTROL => (
+            MIDI_CMM_LOCAL_CONTROL => (
                 Some(MidiMessage::ChannelMode {
                     channel: self.channel,
                     mode: MidiChannelMode::LocalControl(byte >= 64),
@@ -461,7 +459,7 @@ impl MidiParser {
                 },
             ),
 
-            MIDI_CH_MODE_ALL_NOTES_OFF => (
+            MIDI_CMM_ALL_NOTES_OFF => (
                 Some(MidiMessage::ChannelMode {
                     channel: self.channel,
                     mode: MidiChannelMode::AllNotesOff,
@@ -476,7 +474,7 @@ impl MidiParser {
                 },
             ),
 
-            MIDI_CH_MODE_OMNI_MODE_OFF => (
+            MIDI_CMM_OMNI_MODE_OFF => (
                 Some(MidiMessage::ChannelMode {
                     channel: self.channel,
                     mode: MidiChannelMode::OmniModeOff,
@@ -494,7 +492,7 @@ impl MidiParser {
                 },
             ),
 
-            MIDI_CH_MODE_OMNI_MODE_ON => (
+            MIDI_CMM_OMNI_MODE_ON => (
                 Some(MidiMessage::ChannelMode {
                     channel: self.channel,
                     mode: MidiChannelMode::OmniModeOn,
@@ -512,7 +510,7 @@ impl MidiParser {
                 },
             ),
 
-            MIDI_CH_MODE_MONO_MODE_ON => (
+            MIDI_CMM_MONO_MODE_ON => (
                 Some(MidiMessage::ChannelMode {
                     channel: self.channel,
                     mode: MidiChannelMode::MonoModeOn(byte),
@@ -523,7 +521,7 @@ impl MidiParser {
                 )),
             ),
 
-            MIDI_CH_MODE_POLY_MODE_ON => (
+            MIDI_CMM_POLY_MODE_ON => (
                 Some(MidiMessage::ChannelMode {
                     channel: self.channel,
                     mode: MidiChannelMode::PolyModeOn,
@@ -549,7 +547,10 @@ impl MidiParser {
                 }),
                 MidiAnalysis::Comment(format!(
                     "Control Change (Channel {}): Controller {} ({}): Value {}",
-                    self.channel, control, controls::get_controller_name(control), byte
+                    self.channel,
+                    control,
+                    controls::get_controller_name(control),
+                    byte
                 )),
             ),
         }

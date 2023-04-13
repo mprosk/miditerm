@@ -9,6 +9,7 @@ use std::{
     path::PathBuf,
 };
 use structopt::StructOpt;
+use tui::style::Style;
 
 #[derive(Debug, StructOpt)]
 struct Args {
@@ -19,6 +20,10 @@ struct Args {
     /// Name or path of the serial device to open
     #[structopt(long)]
     port: Option<String>,
+
+    /// Writes all received bytes to MIDI Out
+    #[structopt(short, long)]
+    echo: bool,
 }
 
 fn main() -> Result<(), anyhow::Error> {
@@ -29,7 +34,7 @@ fn main() -> Result<(), anyhow::Error> {
     } else if let Some(port) = args.port {
         return read_from_serial(port).context("Error parsing MIDI from serial port");
     }
-
+    println!("{:#?}", Style::default());
     ui::run_application()?;
 
     Ok(())

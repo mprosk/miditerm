@@ -56,56 +56,56 @@ impl MidiMessage {
                 MidiChannelMode::AllSoundOff => {
                     vec![
                         MIDI_MSG_CONTROL_CHANGE | (channel & MIDI_CHANNEL_MASK),
-                        MIDI_CH_MODE_ALL_SOUNDS_OFF,
+                        MIDI_CMM_ALL_SOUNDS_OFF,
                         0,
                     ]
                 }
                 MidiChannelMode::ResetAllControllers => {
                     vec![
                         MIDI_MSG_CONTROL_CHANGE | (channel & MIDI_CHANNEL_MASK),
-                        MIDI_CH_MODE_RESET_ALL_CONTROLLERS,
+                        MIDI_CMM_RESET_ALL_CONTROLLERS,
                         0,
                     ]
                 }
                 MidiChannelMode::LocalControl(on) => {
                     vec![
                         MIDI_MSG_CONTROL_CHANGE | (channel & MIDI_CHANNEL_MASK),
-                        MIDI_CH_MODE_LOCAL_CONTROL,
+                        MIDI_CMM_LOCAL_CONTROL,
                         if on { 127 } else { 0 },
                     ]
                 }
                 MidiChannelMode::AllNotesOff => {
                     vec![
                         MIDI_MSG_CONTROL_CHANGE | (channel & MIDI_CHANNEL_MASK),
-                        MIDI_CH_MODE_ALL_NOTES_OFF,
+                        MIDI_CMM_ALL_NOTES_OFF,
                         0,
                     ]
                 }
                 MidiChannelMode::OmniModeOff => {
                     vec![
                         MIDI_MSG_CONTROL_CHANGE | (channel & MIDI_CHANNEL_MASK),
-                        MIDI_CH_MODE_OMNI_MODE_OFF,
+                        MIDI_CMM_OMNI_MODE_OFF,
                         0,
                     ]
                 }
                 MidiChannelMode::OmniModeOn => {
                     vec![
                         MIDI_MSG_CONTROL_CHANGE | (channel & MIDI_CHANNEL_MASK),
-                        MIDI_CH_MODE_OMNI_MODE_ON,
+                        MIDI_CMM_OMNI_MODE_ON,
                         0,
                     ]
                 }
                 MidiChannelMode::MonoModeOn(m) => {
                     vec![
                         MIDI_MSG_CONTROL_CHANGE | (channel & MIDI_CHANNEL_MASK),
-                        MIDI_CH_MODE_MONO_MODE_ON,
+                        MIDI_CMM_MONO_MODE_ON,
                         m & MIDI_DATA_MASK,
                     ]
                 }
                 MidiChannelMode::PolyModeOn => {
                     vec![
                         MIDI_MSG_CONTROL_CHANGE | (channel & MIDI_CHANNEL_MASK),
-                        MIDI_CH_MODE_POLY_MODE_ON,
+                        MIDI_CMM_POLY_MODE_ON,
                         0,
                     ]
                 }
